@@ -1,14 +1,18 @@
-.parent {
-    border: 5px solid red;
-    height: 500px;
-    width: 500px;
-    position: relative;
-    margin-top: 200px;
+body{
+    background-color: greenyellow;
 }
-.child {
-    border: 3px solid green;
-    position: absolute;
-    top: 30%;
-    left: 50%;    
-    transform: translate(-50%, -50%);        
+
+
+.child{
+color: white;
+background-color:yellowgreen;
+text-align: center;
+border: solid red 2px;
+font-size: 115px;
+margin-top: 5%;
+margin-bottom: 11%;
+}
+.blogs{
+    color:aliceblue;
+
 }
