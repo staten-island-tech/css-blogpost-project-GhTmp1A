@@ -1,5 +1,7 @@
 body{
-    background-color: greenyellow;
+    background-image: url(imgs/Test\ background\ for\ website.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parent{
@@ -9,12 +11,13 @@ border: 3px;
 
 .child{
 color: white;
-background-color:yellowgreen;
+background-image:linear-gradient(rgb(207, 73, 207), rgb(236, 236, 119));
 text-align: center;
-border: solid rgb(0, 104, 0) 6px;
+border: solid rebeccapurple 3px;
 font-size: 115px;
 margin-top: 5%;
 margin-bottom: 6.5%;
+border-radius: 6px;
 
 }
 
@@ -22,11 +25,11 @@ margin-bottom: 6.5%;
 
 }
 
-.blog1{
-    background-color: cyan;
+.Introduction{
     color:white;
     text-align: center;
-    padding: 5%;
-    font-size: 20px;
-
+    padding: 1%;
+    font-size: 30px;
+    background-color: rgb(255, 144, 104);
+    border-radius: 6px;
 }
