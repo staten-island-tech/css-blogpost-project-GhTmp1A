@@ -2,17 +2,31 @@ body{
     background-color: greenyellow;
 }
 
+.parent{
+padding-bottom: 2%;
+border: 3px;
+}
 
 .child{
 color: white;
 background-color:yellowgreen;
 text-align: center;
-border: solid red 2px;
+border: solid rgb(0, 104, 0) 6px;
 font-size: 115px;
 margin-top: 5%;
-margin-bottom: 11%;
+margin-bottom: 6.5%;
+
 }
+
 .blogs{
-    color:aliceblue;
+
+}
+
+.blog1{
+    background-color: cyan;
+    color:white;
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
 
 }
