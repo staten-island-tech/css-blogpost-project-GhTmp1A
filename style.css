@@ -4,19 +4,19 @@ body{
     background-size: cover;
 }
 
-.parent{
+.header{
 padding-bottom: 2%;
 border: 3px;
 }
 
-.child{
+.title{
 color: white;
 background-image:linear-gradient(rgb(207, 73, 207), rgb(236, 236, 119));
 text-align: center;
 border: solid rebeccapurple 3px;
 font-size: 115px;
 margin-top: 5%;
-margin-bottom: 6.5%;
+margin-bottom: 3%;
 border-radius: 6px;
 
 }
@@ -29,7 +29,31 @@ border-radius: 6px;
     color:white;
     text-align: center;
     padding: 1%;
-    font-size: 30px;
+    font-size: 35px;
     background-color: rgb(255, 144, 104);
     border-radius: 6px;
+    border: solid salmon 3px;
+}
+
+.blog1{
+    color: rgb(67, 192, 134);
+    text-align: center;
+    margin-top: 6%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color:  rgb(240, 240, 144);
+    border: solid rgb(238, 238, 182) 10px;
+    padding: 2px;
+    padding: ;
+}
+.blog2 {
+    text-align: center;
+    margin: 2%;
+    font-size: 37px;
+    background-image: linear-gradient(rgb(206, 96, 206), rgb(214, 214, 137));
+    color: white;
+    border: solid purple 8px;
+    border-radius: 20px;
+    margin: 8px;
+    margin-top: 20px;
 }
