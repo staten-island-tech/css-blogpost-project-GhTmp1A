@@ -1,3 +1,10 @@
+
+
+@font-face{
+    font-family: "Futura Medium";
+    src: url(fonts/Futura\ Medium.otf) format(truetype);
+}
+
 body{
     background-image: url(imgs/Test\ background\ for\ website.png);
     background-repeat: no-repeat;
@@ -35,25 +42,46 @@ border-radius: 6px;
     border: solid salmon 3px;
 }
 
+span{
+    font-size: 75px;
+    text-align: center;
+}
+
+.spoon{
+
+}
+
 .blog1{
-    color: rgb(67, 192, 134);
+    color: white;
     text-align: center;
     margin-top: 6%;
-    font-size: 30px;
+    margin-bottom: 10%;
+    font-size: 34px;
     border-radius: 20px;
-    background-color:  rgb(240, 240, 144);
+    background-image: linear-gradient(rgb(226, 170, 226),rgb(212, 137, 212));
     border: solid rgb(238, 238, 182) 10px;
     padding: 2px;
-    padding: ;
+    
 }
 .blog2 {
+ font-family: ;
     text-align: center;
     margin: 2%;
     font-size: 37px;
-    background-image: linear-gradient(rgb(206, 96, 206), rgb(214, 214, 137));
+    background-image: linear-gradient(rgb(212, 137, 212), rgb(179, 77, 179));
     color: white;
     border: solid purple 8px;
     border-radius: 20px;
     margin: 8px;
     margin-top: 20px;
+    margin-bottom: 400px;
+}
+
+.blog3{
+    text-align: center;
+    font-size: 35px;
+    color:white;
+    background-image: url(imgs/Blog3\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
