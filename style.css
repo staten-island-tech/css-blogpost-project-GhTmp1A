@@ -1,7 +1,12 @@
+body{
+    font-family: 'Finlandica', sans-serif;
+}
+
 
 body{
     background-image: url(imgs/Test\ background\ for\ website.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header{
@@ -14,10 +19,11 @@ color: white;
 background-image:linear-gradient(rgb(207, 73, 207), rgb(213, 95, 213));
 text-align: center;
 border: solid rebeccapurple 3px;
-font-size: 115px;
+font-size: 100px;
 margin-top: 5%;
 margin-bottom: 3%;
 border-radius: 6px;
+padding: 1%;
 
 }
 
@@ -52,10 +58,11 @@ span{
     font-size: 27.5px;
     border-radius: 20px;
     background-image: linear-gradient(rgb(226, 170, 226),rgb(222, 162, 222));
-    border: solid rgb(238, 238, 182) 10px;
+    border: solid rgb(207, 117, 207) 10px;
     padding: 1px;
     margin-left: 75px;
     margin-right: 75px;
+    padding: 1%;
     
 }
 .blog2 {
@@ -65,10 +72,11 @@ span{
     color: white;
     border: solid purple 8px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 125px;
     margin-left: 75px;
     margin-right: 75px;
+    padding: 1%;
 }
 
 .blog3{
@@ -79,6 +87,6 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin: 75px;
+    padding: 1%;
 }
